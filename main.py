@@ -6,7 +6,7 @@ from datetime import datetime
 
 app = FastAPI()
 
-API_KEY = "DEIN_API_KEY"  # <<-- später ersetzen
+API_KEY = "12345-abcde-mein-geheimer-api-schluessel"  # <<-- später ersetzen
 
 
 class FinancialPlanRequest(BaseModel):
